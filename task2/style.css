@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  background: #88d6e2;
+  background: linear-gradient(#455469 35%, #242d3c);
+}
+
+.hero {
+  z-index: -2;
+}
+/* Navbar */
+nav fixed-top {
+  height: 70px;
+}
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background: #293b53;
+  color: #fff;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+nav .logo {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+}
+nav .logo img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 20%;
+  justify-content: space-between;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+nav ul li a:hover {
+  color: #ff876d;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  left: -11px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.Imagehero {
+  width: 100%;
+}
+span {
+  margin-top: 5px;
+  display: block;
+  width: 160px;
+  height: 2px;
+  background-color: #ff876d;
+  border-radius: 5px;
+}
+
+.konten {
+  opacity: 0.9;
+  position: sticky;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 170px;
+  margin-right: 170px;
+  color: #fff;
+}
+
+.konten p {
+  font-weight: 100;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  background: #242d3c;
+  padding: 30px;
+  opacity: 0.9;
+  margin-top: 30px;
+}
+.footer a {
+  font-weight: 100;
+  margin-left: 10px;
+  color: #ff876d;
+  text-decoration: none;
+}
+.footer p {
+  font-weight: 100;
+}

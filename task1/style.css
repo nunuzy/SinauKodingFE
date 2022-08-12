@@ -7,7 +7,7 @@
 table#withborder,
 tr,
 td {
-  border: 1px solid rgb(104, 104, 104);
+  border: 1px solid black;
   border-collapse: collapse;
 }
 tr#withoutborder,

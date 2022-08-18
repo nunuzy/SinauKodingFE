@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+.pembungkus {
+  position: relative;
+}
+
+#navig_bar {
+  background: #ebebeb none repeat scroll;
+  border-radius: 0;
+  padding: 2;
+}
+
+.navbar .btn {
+  --bs-btn-padding-y: 0.53rem;
+  --bs-btn-padding-x: 0.6rem;
+  --bs-btn-font-size: 0.85rem;
+  --bs-btn-border-color: transparent;
+  --bs-btn-margin-bottom: 2px;
+  --bs-btn-bg: #26468f;
+}
+
+#btn {
+  position: absolute;
+  right: 50px;
+  bottom: 90px;
+  letter-spacing: 2px;
+  background-color: #26468f;
+}
+
+.btn .bi {
+  word-spacing: 2rem;
+}
+
+.container .col-md-3 {
+  padding: 2px;
+  height: 47px;
+}
+
+h1,
+h4 {
+  margin: 5px;
+  color: #26468f;
+  text-indent: 228px;
+  word-spacing: 1.2px;
+}
+
+.smalltitle {
+  font-size: 1.1rem;
+}
+
+.bigtitle {
+  margin-top: -1rem;
+  font-size: 1.9rem;
+}
+
+.img-fluid {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 50px;
+}
+
+.container .row {
+  font-size: 15px;
+  padding-bottom: 25px;
+  text-justify: newspaper;
+}
+
+.col-md-2 {
+  height: auto;
+  width: auto;
+}
+
+.text {
+  color: #26468f;
+}
+
+.container-fluid {
+  background: #f8f9fa;
+  margin-top: 2.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+.content {
+  text-align: center;
+  font-size: small;
+  margin-top: -2rem;
+}
+
+.subcontent {
+  text-align: center;
+  font-size: small;
+  margin-top: -1rem;
+}
+
+.d-grid .btn {
+  --bs-btn-bg: #26468f;
+  --bs-btn-border-color: transparent;
+  box-shadow: #ced4da 7px 7px;
+}
+
+.heading {
+  padding-top: 2rem;
+}
+
+.flex {
+  font-size: 16px;
+}
+
+i {
+  color: #26468f;
+  margin-left: 15rem;
+}
+
+.terms-link {
+  color: #26468f;
+  font-size: 14px;
+  font-weight: 600 !important;
+}
+
+.pernyataan-check-input {
+  margin-top: 10px;
+  text-indent: 12px;
+}
+
+.btn {
+  --bs-btn-padding-y: 0.53rem;
+  --bs-btn-padding-x: 0.6rem;
+  --bs-btn-font-size: 0.85rem;
+  --bs-btn-border-color: transparent;
+  --bs-btn-margin-bottom: 2px;
+  --bs-btn-bg: #26468f;
+}
+
+.text p {
+  width: 600px;
+  margin-top: 0.5px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #555555;
+}
+
+.urutan {
+  padding: 30px 90px 30px 90px;
+}
+
+footer {
+  width: auto;
+  height: 50px !important;
+  background-color: #063585;
+}
+
+.copyright {
+  font-size: 12.5px;
+  width: 550px;
+  color: #ffffff;
+}
